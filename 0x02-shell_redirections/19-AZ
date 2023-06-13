@@ -1,4 +1,2 @@
 #!/bin/bash
-read -p "Enter input: " input
-result=$(echo "$input" | tr 'Ac' 'Ze')
-echo "Result: $result"
+tr 'Ac' 'Ze'
